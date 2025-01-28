@@ -1,6 +1,7 @@
 <!-- Archive.org Storytelling by Deep Grewal -->
 <!doctype html>
 <html lang="em">
+
 <head>
     <!-- METADATA GOES HERE -->
     <meta charset="utf-8">
@@ -18,8 +19,12 @@
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- CHART.JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="script.js"></script>
 </head>
+
 <body>
 
     <div class="container">
@@ -28,13 +33,33 @@
                 <p class="h1"> Archive.org: The Internet's Museum </p>
                 <p class="h4"> Securing our Brief Internet History since 1996 </p>
             </div>
+
             <div class="text-start col-6 h6">
-                We all know the classic saying "Once something is on internet it stays on", this is 
-                because people assume if they don't save something on the internet someone else would 
-                save it for them.
+                <h1> The Internet and its Archive </h1>
+                We all know the classic saying "Nothing is ever lost on the internet", this is
+                because people assume if they don't save something on the internet someone else would
+                save it for them. This is however not the case and this way of thinking is how a lot
+                of older content gets lost to time. But where does most of the content that did get
+                saved go? That's where the Internet Archive (or simply archive.org) comes in! Saving a variety of
+                content from (and even not from) the internet. <br><br> The Internet Archive not only hosts and has
+                saved more than <b style="background-color: #FFCD27; border-radius: 5px;">916 billion webpages</b> and
+                <b style="background-color: #FAAC3B; border-radius: 5px;">43 million texts</b>, but also has saved a
+                variety of
+                other kinds of content too...
+            </div>
+
+            <div class="text-end col-6 h6">
+                <h1> Why it Matters? </h1>
+                
+            </div>
+
+            <h1>Archive.org's Other Saved Items</h1>
+            <div class="col-6">
+                <canvas id="dataBar"></canvas>
             </div>
         </div>
     </div>
 
 </body>
+
 </html>
