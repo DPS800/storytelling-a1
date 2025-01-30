@@ -61,7 +61,7 @@ function start() {
             datasets: [{
                 label: '% of Webpages Lost',
                 data: [
-                    100, 93.8, 87.6, 81.4, 75.2, 69, 62.8, 56.6, 50.4, 44.2, 38
+                    0, 3.8, 7.6, 11.4, 15.2, 19, 22.8, 26.6, 30.4, 34.2, 38
                 ],
                 borderWidth: 2,
                 backgroundColor: ['rgba(250, 172, 59, 0.5)'],
@@ -71,7 +71,7 @@ function start() {
         options: {
             scales: {
                 y: {
-                    beginAtZero: true,
+                    max: 100,
                 },
             },
             responsive: true,
